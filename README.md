@@ -18,6 +18,14 @@ Status
 
 In progress. This README will be updated as the project moves forward.
 
+Data cleaning 
+
+Found and removed 62 duplicate rows (identical except for id), leaving 1,706 daily records
+Sorted records by date and converted date to datetime
+Dropped 6 combined card columns that were reported only for Nov 2020–Sep 2021
+Filled blanks with 0 where a payment system did not operate (weekends and holidays); left earlier blanks as missing where a series had not started
+Added year, month, quarter, weekday, weekend flag and average UPI ticket size
+
 Author
 
 Sherin Kunjumon
